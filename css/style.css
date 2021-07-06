@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-sizing: border-box;
+  font-family: "Vollkorn", serif;
+}
+
+.Sec-1 {
+  display: flex;
+}
+
+.child-1 {
+  width: 50%;
+}
+
+.child-1 ul li {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+.child-1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: deepskyblue;
+  padding-left: 60px;
+}
+
+.child-1 ul li a:hover {
+  color: crimson;
+}
+
+.child-1 h1 {
+  margin-top: 50px;
+  margin-left: 70px;
+  font-size: 40px;
+}
+
+.child-1 span {
+  color: deepskyblue;
+}
+
+.child-1 p {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.child-1 .button-1 {
+  text-decoration: none;
+  margin-left: 70px;
+  background-image: linear-gradient(cyan, deepskyblue);
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: black;
+}
+
+.child-1 .button-1:hover {
+  background-image: linear-gradient(crimson, red);
+  color: white;
+}
+
+.child-1 img {
+  width: 70%;
+}
