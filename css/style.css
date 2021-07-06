@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Vollkorn", serif;
 }
 
@@ -63,4 +63,21 @@
 
 .child-1 img {
   width: 70%;
+}
+
+.Sec-2 {
+  display: flex;
+  margin-top: 100px;
+  background-image: url(../images/Frame\ 57.jpg);
+  background-repeat: repeat;
+  background-position: right;
+}
+
+.child-2 {
+  width: 50%;
+}
+
+.child-2 img {
+  width: 40%;
+  margin-left: 250px;
 }
